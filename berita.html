@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita - Ruang Belajar</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+window.addEventListener("scroll", function() {
+  let navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("scrolled", window.scrollY > 10);
+});
+</script>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top navbar">
+    <div class="container">
+        <div class="logo">
+            <a class="navbar-brand fw-bold" href="#">
+            Ruang Belajar
+        </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item me-3">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item me-3">
+                <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item me-3">
+                <a class="nav-link" href="#berita"><b>Berita</b></a>
+            </li>
+            <li>
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item" style="margin-left: 15px;">
+                <a href="materi.html" class="btn btn-primary">Mulai Belajar</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <h1>
+            Berita terkait Ruang Belajar
+        </h1>
+        <p>
+            Dapatkan informasi terbaru seputar dunia pendidikan dan pembelajaran online.
+        </p>
+    </div>
+</section>
+
+<!-- BERITA -->
+<section class="container py-5">
+    <div class="row g-4">
+        <!-- BERITA 1 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100">
+                <img src="gambar/berita1.avif"
+                class="card-img-top"
+                alt="Belajar">
+                <div class="card-body">
+                    <span class="badge bg-primary mb-2">
+                        Edukasi
+                    </span>
+                    <h5 class="fw-bold">
+                        Tips Belajar Efektif untuk Siswa
+                    </h5>
+                    <p class="text-muted">
+                        Cara meningkatkan fokus dan semangat belajar
+                        agar mendapatkan hasil yang lebih maksimal.
+                    </p>
+                    <a href="berita/berita1.html">
+                        <button class="btn-berita1">Baca Selengkapnya</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- BERITA 2 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100">
+                <img src="gambar/berita2.avif"
+                class="card-img-top"
+                alt="Quiz">
+                <div class="card-body">
+                    <span class="badge bg-primary mb-2">
+                        Pembelajaran
+                    </span>
+                    <h5 class="fw-bold">
+                        Manfaat Quiz Interaktif
+                    </h5>
+                    <p class="text-muted">
+                        Quiz interaktif membuat pembelajaran menjadi
+                        lebih menarik dan tidak membosankan.
+                    </p>
+                    <a href=berita/berita2.html>
+                        <button class="btn-berita1">Baca Selengkapnya</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- BERITA 3 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100">
+                <img src="gambar/berita3.avif"
+                class="card-img-top"
+                alt="Teknologi">
+                <div class="card-body">
+                    <span class="badge bg-primary mb-2">
+                        Teknologi
+                    </span>
+                    <h5 class="fw-bold">
+                        Teknologi Membantu Pendidikan
+                    </h5>
+                    <p class="text-muted">
+                        Teknologi modern mempermudah untuk mengakses pendidikan
+                        dan pembelajaran online.
+                    </p>
+                    <a href="berita/berita3.html">
+                        <button class="btn-berita1">Baca Selengkapnya</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- BERITA 4 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100">
+                <img src="gambar/berita4.avif"
+                class="card-img-top"
+                alt="Literasi">
+                <div class="card-body">
+                    <span class="badge bg-primary mb-2">
+                        Literasi
+                    </span>
+                    <h5 class="fw-bold">
+                        Pentingnya Membaca Setiap Hari
+                    </h5>
+                    <p class="text-muted">
+                        Membaca dapat meningkatkan wawasan serta kemampuan berpikir siswa.
+                    </p>
+                    <a href="berita/berita4.html">
+                        <button class="btn-berita1">Baca Selengkapnya</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- BERITA 5 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100">
+                <img src="gambar/berita5.avif"
+                class="card-img-top"
+                alt="Online Class">
+                <div class="card-body">
+                    <span class="badge bg-primary mb-2">
+                        Online Class
+                    </span>
+                    <h5 class="fw-bold">
+                        Belajar Online Semakin Populer
+                    </h5>
+                    <p class="text-muted">
+                        Sistem pembelajaran online kini digunakan oleh banyak siswa.
+                    </p>
+                    <a href="berita/berita5.html">
+                        <button class="btn-berita1">Baca Selengkapnya</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- BERITA 6 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100">
+                <img src="gambar/berita6.avif"
+                class="card-img-top"
+                alt="Prestasi">
+                <div class="card-body">
+                    <span class="badge bg-primary mb-2">
+                        Sekolah
+                    </span>
+                    <h5 class="fw-bold">
+                        Cara Menjadi Siswa Berprestasi
+                    </h5>
+                    <p class="text-muted">
+                        Disiplin, fokus, dan konsisten adalah kunci sukses belajar.
+                    </p>
+                    <a href="berita/berita6.html">
+                        <button class="btn-berita1">Baca Selengkapnya</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<div id="textfooter">
+<div class="small text-white">
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="fw-bold">Ruang Belajar</h5>
+                <p>Website edukasi interaktif yang menyediakan materi, video pembelajaran, dan quiz untuk membantu siswa SMA/SMK belajar dengan lebih mudah, efektif, dan menyenangkan.
+                </p>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h6 class="fw-bold mb-3">Navigasi</h6>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#home" class="text-white text-decoration-none">Home</a>
+                    </li>
+                    <li>
+                        <a href="tentang.html" class="text-white text-decoration-none">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="berita.html" class="text-white text-decoration-none">Berita</a>
+                    </li>
+                    <li>
+                        <a href="faq.html" class="text-white text-decoration-none">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <div id="textfooter">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="list-unstyled text-white small">
+                    <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Mojokerto, Jawa Timur</li>
+                    <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 789 1661 6996</li>
+                    <li><i class="bi bi-envelope-fill me-2"></i>ruangb3lajar@email.com</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3 color-secondary">
+        <p class="text-center text-white small mb-0">
+            &copy; 2026 by Yafi Alifuddin Dewangga. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

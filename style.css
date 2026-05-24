@@ -1,0 +1,500 @@
+/* ===== RESET ===== */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Supaya konten tidak ketutup navbar */
+body {
+    padding-top: 80px;
+    background-color: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar utama */
+.navbar {
+    transition: all 0.3s ease;
+    background-color: #fff !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Shadow saat scroll */
+.navbar.scrolled {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.navbar-brand {
+    font-size: 22px;
+    color: #007BFF !important;
+}
+
+/* Menu */
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #007BFF !important;
+}
+
+/* Button */
+.btn-primary {
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.logo {
+    color: #007BFF;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 128px 10%;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    margin-top: -50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #fff;
+    color: #007BFF;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #007BFF;
+    color: #fff;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 0 130px 0 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===== SECTION ===== */
+.fitur-website{
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+/* JUDUL */
+.fitur-website .judul{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.fitur-website .judul h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.fitur-website .judul p{
+    color: #666;
+    font-size: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* CARD */
+.fitur-card{
+    background: white;
+    border-radius: 12px;
+    padding: 25px 20px;
+    text-align: center;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.fitur-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* ICON */
+.fitur-card i{
+    font-size: 40px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* TITLE */
+.fitur-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* TEXT */
+.fitur-card p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* ICON */
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #000000 2px;
+    border-radius: 50%;
+    color: #000000;
+}
+
+/* TESTIMONY */
+.testimony-card {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.testimony-card h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.55);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.testimony-card .stars {
+    color: #FFC107;
+    font-size: 0.85rem;
+}
+
+.hero{
+    background: linear-gradient(135deg, #4e73df, #224abe);
+    color: white;
+    padding: 100px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.hero h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* CARD */
+.custom-card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.custom-card:hover{
+    transform: translateY(-5px);
+}
+
+/* KEUNGGULAN */
+.feature-box{
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.feature-box:hover{
+    background: #224abe;
+    color: white;
+    transform: scale(1.03);
+}
+
+.feature-box h4{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* BERITA*/
+.news-card{
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.news-card:hover{
+    transform: translateY(-5px);
+}
+
+.news-card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.section-title{
+    font-weight: bold;
+}
+
+.btn-berita1{
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-berita1:hover{
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.content-box{
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin-top: -50px;
+    position: relative;
+}
+
+.content-box img{
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.tentang {
+    background: #f5f7fa;
+}
+
+.custom-card {
+    border-radius: 15px;
+    background: #fff;
+}
+
+.tentang-box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.tentang-box img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tentang-box p,
+.card-body p {
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* FAQ */
+.faq-section{
+    padding: 80px 0;
+}
+
+.faq-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-title h2{
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.accordion-item{
+    border: none;
+    border-radius: 15px !important;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.accordion-button{
+    font-weight: bold;
+    padding: 20px !important;
+    border-radius: 15px !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #0d6efd;
+    color: white;
+}
+
+.accordion-body{
+    color: #555;
+    line-height: 1.8;
+}
+
+/* MATERI */
+.materi{
+    padding: 80px 0;
+}
+
+.materi-card{
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.materi-card:hover{
+    transform: translateY(-8px);
+}
+
+.materi-card i{
+    font-size: 60px;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.materi-card h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.materi-card p{
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-mulai{
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 13px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-mulai:hover{
+    background: #0b5ed7;
+}
+
+/* SECTION */
+.materi-section{
+    padding: 80px 0;
+}
+
+/* BOX */
+.materi-box{
+    background: white;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.materi-box h3{
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* VIDEO */
+.video-container{
+    margin-top: 30px;
+}
+
+.video-container iframe{
+    border-radius: 20px;
+}
+
+/* MATERI */
+.materi-text{
+    margin-top: 40px;
+}
+
+.materi-text h4{
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.materi-text p{
+    color: #555;
+    line-height: 1.9;
+}
+
+/* QUIZ */
+.question-box{
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.question-box h5{
+    font-weight: bold;
+}
+
+button{
+    border-radius: 50px !important;
+    padding: 10px 25px !important;
+}

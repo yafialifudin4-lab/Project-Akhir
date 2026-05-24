@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Belajar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+    <script>
+window.addEventListener("scroll", function() {
+  let navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("scrolled", window.scrollY > 10);
+});
+</script>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top navbar">
+    <div class="container">
+        <div class="logo">
+            <a class="navbar-brand fw-bold" href="#">
+            Ruang Belajar
+        </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item me-3">
+                <a class="nav-link" href="#home"><b>Home</b></a>
+            </li>
+            <li class="nav-item me-3">
+                <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item me-3">
+                <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+            <li>
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item" style="margin-left: 15px;">
+                <a href="materi.html" class="btn btn-primary">Mulai Belajar</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<!-- Banner -->
+<section class="banner">
+    <div class="content">
+        <h1>Belajar lebih mudah di Ruang Belajar</h1>
+        <p>Platform pembelajaran online dengan materi lengkap</p>
+        <a href="materi.html" class="btn">Mulai Belajar</a>
+    </div>
+    <div class="image">
+        <img src="../gambar/banner.png" alt="Ruang Belajar">
+    </div>
+</section>
+<!-- ISI WEBSITE -->
+<section class="fitur-website">
+<div class="container">
+    <!-- JUDUL -->
+    <div class="judul">
+        <h2>Apa Saja Yang Ada di Ruang Belajar?</h2>
+        <p>
+            Berbagai fitur pembelajaran online modern untuk membantu siswa belajar lebih mudah.
+        </p>
+    </div>
+    <!-- FITUR -->
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="fitur-card">
+                <i class="bi bi-journal-bookmark-fill"></i>
+                <h4>Materi Lengkap</h4>
+                <p>
+                    Materi pembelajaran SMA / SMK yang mudah dipahami.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="fitur-card">
+                <i class="bi bi-play-circle-fill"></i>
+                <h4>Video Pembelajaran</h4>
+                <p>
+                    Video pembelajaran interaktif agar belajar lebih menyenangkan.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="fitur-card">
+                <i class="bi bi-patch-question-fill"></i>
+                <h4>Quiz Interaktif</h4>
+                <p>
+                    Quiz dan latihan soal untuk menguji kemampuan siswa.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="fitur-card">
+                <i class="bi bi-person-video3"></i>
+                <h4>Guru Profesional</h4>
+                <p>
+                    Dibimbing langsung oleh guru berpengalaman.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="fitur-card">
+                <i class="bi bi-lightning-charge-fill"></i>
+                <h4>Belajar Fleksibel</h4>
+                <p>
+                    Belajar kapan saja dan di mana saja.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="fitur-card">
+                <i class="bi bi-phone-fill"></i>
+                <h4>Akses Fleksibel</h4>
+                <p>
+                    Bisa diakses melalui HP, tablet, dan laptop.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Prestasi -->
+<br>
+<br>
+<section class="prestasi">
+    <div class="container">
+        <h2><b>Prestasi Dari Siswa Kami</b></h2>
+        <p>Beberapa pencapaian yang telah diraih oleh Ruang Belajar</p>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="../gambar/prestasi-sd.png" class="card-img-top" alt="Prestasi 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoru Pratama</h5>
+                        <p class="card-text">siswa berbakat yang sukses meraih Juara 1 Kompetisi Matematika Tingkat Jawa Timur. Melalui ketajaman logika dan kemampuan berhitung yang luar biasa, ia berhasil membawa pulang piala kemenangan dalam ajang bergengsi ini. Prestasi ini menjadi bukti nyata atas kerja kerasnya.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="../gambar/prestasi-smp.jpeg" class="card-img-top" alt="Prestasi 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sova Nugraha</h5>
+                        <p class="card-text">berhasil meraih Juara 1 Olimpiade Bahasa Indonesia Tingkat Provinsi. Dengan dedikasi tinggi di bidang literasi, ia sukses mengungguli peserta dari berbagai daerah dan membawa pulang piala serta piagam penghargaan sebagai bukti kecintaannya terhadap bahasa nasional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="../gambar/prestasi-sma.jpeg" class="card-img-top" alt="Prestasi 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Asta Setiawan</h5>
+                        <p class="card-text">siswa berprestasi yang sukses meraih Juara 1 Olimpiade Kimia Fisika Tingkat Nasional. Melalui penguasaan materi yang mendalam dan kemampuan analisis yang tajam, ia berhasil membawa pulang piala kemenangan dalam ajang bergengsi ini. Prestasi ini menjadi bukti dedikasi tingginya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+
+<!-- Kategori Pembelajaran -->
+<section class="py-5">
+<div class="container text-center">
+<h2><b>Kategori Pembelajaran</b></h2>
+<p>Berikut adalah kategori pembelajaran yang tersedia di Ruang Belajar</p>
+<div class="container">
+    <div class="row justify-content-center g-4 mt-3">
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-sm h-100">
+                <img src="../gambar/kategori-pembelajaran-video.png" class="card-img-top" alt="video" style="width: 300px; height: 200px; object-fit: cover; margin: auto;">
+                <div class="card-body">
+                    <h5 class="card-title">Melihat Video Edukasi</h5>
+                    <p class="card-text">Nikmati video pembelajaran interaktif yang menyenangkan dan informatif.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-sm h-100">
+                <img src="../gambar/kategori-pembelajaran-membaca.png" class="card-img-top" alt="Materi" style="width: 300px; height: 200px; object-fit: cover; margin: auto;">
+                <div class="card-body">
+                    <h5 class="card-title">Membaca Materi</h5>
+                    <p class="card-text">Baca materi pembelajaran yang lengkap dan mudah dipahami.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-sm h-100">
+                <img src="../gambar/kategori-pembelajaran-quiz.jpeg" class="card-img-top" alt="Quiz" style="width: 300px; height: 200px; object-fit: cover; margin: auto;">
+                <div class="card-body">
+                    <h5 class="card-title">Quiz</h5>
+                    <p class="card-text">Mengerjakan kuis untuk menguji pemahamanmu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<hr class="border-secondary mt-4 mb-3 color-secondary" style="border: 1px solid black; margin: 0;">
+
+<!-- GURU -->
+<section>
+    <div class="container">
+        <div class="section-title mt-4 " style="text-align: center;">
+            <h2>Guru Pengajar</h2>
+            <p>Belajar bersama pengajar terbaik.</p>
+        </div>
+        <div>
+            <div class="row g-4 mt-3">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="px-2">
+                            <h5>Yono Purwanto S.Pd</h5>
+                            <p>Mengajar Matematika</p>
+                            </div>
+                            <ul>
+                            <li>Lulusan Pendidikan Matematika UGM</li>
+                            <li>8+ Tahun Pengalaman</li>
+                            <li>Penjelasan Bertahap Dan latihan Soal</li>
+                            <li>⭐ 4.5 Rating</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="px-2">
+                            <h5>Rina Marlina S.Hum</h5>
+                            <p>Mengajar Bahasa Indonesia</p>
+                            </div>
+                            <ul>
+                            <li>Sastra Indonesia UNY</li>
+                            <li>6+ Tahun Pengalaman</li>
+                            <li>Materi Interaktif</li>
+                            <li>⭐ 4.3 Rating</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="px-2">
+                            <h5>Pendi Sudarno M.Si</h5>
+                            <p>Mengajar Fisika</p>
+                            </div>
+                            <ul>
+                            <li>Magister Fisika ITS</li>
+                            <li>7+ Tahun Pengalaman</li>
+                            <li>Penjelasan Konsep Dengan Animasi</li>
+                            <li>⭐ 4.8 Rating</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="px-2">
+                            <h5>Tejo Santoso S.Pd</h5>
+                            <p>Mengajar IPS</p>
+                            </div>
+                            <ul>
+                            <li>Pendidikan IPS UPI</li>
+                            <li>5+ Tahun Pengalaman</li>
+                            <li>Studi Kasus</li>
+                            <li>⭐ 4.9 Rating</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="px-2">
+                            <h5>Fade Wijayanto S.Si</h5>
+                            <p>Mengajar IPA</p>
+                            </div>
+                            <ul>
+                            <li>Ilmu Pengetahuan Alam UNNES</li>
+                            <li>6+ Tahun Pengalaman</li>
+                            <li>Belajar Berbasis Proyek Mini</li>
+                            <li>⭐ 4.8 Rating</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="px-2">
+                            <h5>Veto Hidayat S.T</h5>
+                            <p>Mengajar Kimia</p>
+                            </div>
+                            <ul>
+                            <li>Teknik Kimia ITB</li>
+                            <li>7+ Tahun Pengalaman</li>
+                            <li>Video Eksperimen Sederhana</li>
+                            <li>⭐ 4.9 Rating</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+
+<hr class="border-secondary mt-4 mb-3 color-secondary" style="border: 1px solid black; margin: 0;">
+<br>
+<!-- TESTIMONI -->
+<section class="testimony py-3">
+<div class="container mt-5">
+    <div class="section-title" style="text-align: center;">
+        <h2>Testimoni Siswa</h2>
+        <p>Kepuasan siswa adalah prioritas kami.</p>
+    </div>
+        <div class="row g-4 mb-5 mt-3 justify-content-center">
+            <div class="col-md-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Materinya mudah dipahami</h5>
+                    <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                    Video pembelajarannya sangat membantu saya memahami matematika.
+                    </p>
+                    <b>— Fajar Hidayat</b>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Quiz sangat interaktif</h5>
+                    <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>
+                    Belajar jadi lebih seru dengan quiz dan pembahasan langsung.
+                    </p>
+                    <b>— Dinda Cahyaningrum</b>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Guru sangat ramah</h5>
+                    <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                    Penjelasan guru mudah dimengerti dan menyenangkan.
+                    </p>
+                    <b>— Rizky Pratama</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- footer -->
+<div id="textfooter">
+<div class="small text-white">
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="fw-bold">Ruang Belajar</h5>
+                <p>Website edukasi interaktif yang menyediakan materi, video pembelajaran, dan quiz untuk membantu siswa SMA/SMK belajar dengan lebih mudah, efektif, dan menyenangkan.
+                </p>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h6 class="fw-bold mb-3">Navigasi</h6>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#home" class="text-white text-decoration-none">Home</a>
+                    </li>
+                    <li>
+                        <a href="tentang.html" class="text-white text-decoration-none">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="berita.html" class="text-white text-decoration-none">Berita</a>
+                    </li>
+                    <li>
+                        <a href="faq.html" class="text-white text-decoration-none">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <div id="textfooter">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="list-unstyled text-white small">
+                    <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Mojokerto, Jawa Timur</li>
+                    <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 789 1661 6996</li>
+                    <li><i class="bi bi-envelope-fill me-2"></i>ruangb3lajar@email.com</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3 color-secondary">
+        <p class="text-center text-white small mb-0">
+            &copy; 2026 by Yafi Alifuddin Dewangga. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+</div>
+</div>
+</body>
+</html>
